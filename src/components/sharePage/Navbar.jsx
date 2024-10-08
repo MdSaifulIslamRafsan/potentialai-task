@@ -67,7 +67,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn bg-[#FD6F00] text-white">Downlaod CV</a>
+    <Link href="/" className="btn bg-[#FD6F00] text-white">Downlaod CV</Link>
   </div>
 </div>
     );

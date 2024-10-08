@@ -5,6 +5,7 @@ import { FaLinkedin , FaFacebook, FaInstagram , FaTwitter  } from "react-icons/f
 
 const Footer = () => {
     return (
+    <div>
         <div className="footer footer-center text-base-content rounded p-10">
             
         <Link href="/"><Image width="140" height="40" src="/assets/logo (1).png" alt="logo" /></Link>
@@ -32,10 +33,11 @@ const Footer = () => {
             </Link>
           </div>
         </nav>
-        <aside>
+      </div>
+        <aside className="py-5 bg-[#121212] text-white text-center">
           <p>© {new Date().getFullYear()} <span className="text-[#FD6F00]">Mumair</span> All Rights Reserved , Inc.</p>
         </aside>
-      </div>
+    </div>
     );
 };
 
