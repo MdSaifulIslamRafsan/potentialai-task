@@ -7,28 +7,28 @@ const Navbar = () => {
     const activeRoute = usePathname();
     const navItems = [
         {
-            path: '/',
+            path: '#',
             title: "Home"
         },
         {
-            path: '/about',
+            path: '#about',
             title: "About Me"
         },
         {
-            path: '/services',
+            path: '#services',
             title: "Services"
         },
         {
-            path: '/projects',
+            path: '#projects',
             title: "Projects"
         },
         {
-            path: '/testimonials',
+            path: '#testimonials',
             title: "Testimonials"
         },
         {
-            path: '/Contact',
-            title: "contact"
+            path: '#contact',
+            title: "Contact"
         },
     ]
     return (

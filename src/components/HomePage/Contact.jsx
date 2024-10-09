@@ -1,8 +1,8 @@
 
 
-const Newsletter = () => {
+const Contact = () => {
     return (
-        <div className="max-w-xl text-center space-y-5 mx-auto">
+        <div id="contact" className="max-w-xl text-center space-y-5 mx-auto">
             <h1 className="text-4xl font-bold">Lets Design Together</h1>
             <p>Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium</p>
             <form className="space-x-1 lg:space-x-3 flex">
@@ -13,4 +13,4 @@ const Newsletter = () => {
     );
 };
 
-export default Newsletter;
+export default Contact;
