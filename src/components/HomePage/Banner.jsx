@@ -13,7 +13,7 @@ const Banner = () => {
                 <h1 className="font-bold text-5xl">UI & UX  </h1>
                 <h1 className="font-bold mb-3 lg:ml-32 text-5xl">Designer</h1>
                 <p>Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium. Turpis tempus pharetra</p>
-                <Link href="#contact" className="btn mt-5 bg-[#FD6F00] text-white">Downlaod CV</Link>
+                <Link href="#contact" className="btn mt-5 bg-[#FD6F00] text-white">Hire Me</Link>
             </div>
            <div className="relative order-1 lg:order-2">
            <Image width="500" height="400" src="/assets/Group 2.png" alt="BannerImage" className="max-w-[450px] w-full mx-auto" />

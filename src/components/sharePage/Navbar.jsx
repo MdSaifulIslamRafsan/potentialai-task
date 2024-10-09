@@ -65,7 +65,7 @@ const Navbar = ({params}) => {
     </ul>
   </div>
   <div className="navbar-end">
-    <Link href="/" className="btn bg-[#FD6F00] text-white">Downlaod CV</Link>
+    <Link href="https://drive.google.com/uc?export=download&id=18ZBsJ-xYOB-VmP3N9Oy-ENH8DfKWZv59" className="btn bg-[#FD6F00] text-white">Downlaod CV</Link>
   </div>
 </div>
     );
