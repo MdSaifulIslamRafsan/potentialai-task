@@ -17,7 +17,7 @@ const About = () => {
             UX
             <div className="bg-gray-300 rounded-full w-full h-2.5 mx-auto mt-4">
             <div className="w-11/12 h-full rounded-full bg-[#FD6F00] flex items-center relative">
-                <span className="absolute text-xs right-0.5 bg-white w-3 h-5 rounded-full"></span>
+                <span className="absolute text-xs right-0.5 bg-white border-2 border-[#FD6F00] w-4 h-6  rounded-full"></span>
             </div>
         </div>
             </div>
@@ -25,7 +25,7 @@ const About = () => {
             Website Design
             <div className="bg-gray-300 rounded-full w-full h-2.5 mx-auto mt-4">
             <div className="w-10/12 h-full rounded-full bg-[#FD6F00] flex items-center relative">
-                <span className="absolute text-xs right-0.5 bg-white w-3 h-5 rounded-full"></span>
+                <span className="absolute text-xs right-0.5 bg-white border-2 border-[#FD6F00] w-4 h-6  rounded-full"></span>
             </div>
         </div>
             </div>
@@ -33,7 +33,7 @@ const About = () => {
             App Design 
             <div className="bg-gray-300 rounded-full w-full h-2.5 mx-auto mt-4">
             <div className="w-[97%] h-full rounded-full bg-[#FD6F00] flex items-center relative">
-                <span className="absolute text-xs right-0.5 bg-white w-3 h-5 rounded-full"></span>
+                <span className="absolute text-xs right-0.5 bg-white border-2 border-[#FD6F00] w-4 h-6  rounded-full"></span>
             </div>
         </div>
             </div>
@@ -41,8 +41,8 @@ const About = () => {
             <div className="font-bold mb-5">
             Graphic Design 
             <div className="bg-gray-300 rounded-full w-full h-2.5 mx-auto mt-4">
-            <div className="w-11/12 h-full rounded-full bg-[#FD6F00] flex items-center relative">
-                <span className="absolute text-xs right-0.5 bg-white w-3 h-5 rounded-full"></span>
+            <div className="w-11/12  h-full rounded-full bg-[#FD6F00] flex items-center relative">
+                <span className="absolute text-xs right-0.5 bg-white border-2 border-[#FD6F00] w-4 h-6 rounded-full"></span>
             </div>
         </div>
             </div>

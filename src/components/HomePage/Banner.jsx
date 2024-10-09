@@ -8,8 +8,8 @@ const Banner = () => {
     return (
         <div id="#" className="grid grid-cols-1 my-10 items-center lg:grid-cols-2 gap-10">
             <div className="order-2 lg:order-1">
-                <p className="font-samibold">Hi I am </p>
-                <h6 className="font-samibold my-3 text-[#FD6F00]">Muhammad Umair</h6>
+                <p className="font-semibold text-lg">Hi I am </p>
+                <h6 className="font-semibold text-xl my-3 text-[#FD6F00]">Muhammad Umair</h6>
                 <h1 className="font-bold text-5xl">UI & UX  </h1>
                 <h1 className="font-bold mb-3 lg:ml-32 text-5xl">Designer</h1>
                 <p>Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium. Turpis tempus pharetra</p>
