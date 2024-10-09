@@ -1,38 +1,95 @@
+"use client"
 import Image from "next/image";
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+
+// Import required modules
+import { Pagination } from 'swiper/modules';
 
 const Testimonials = () => {
     return (
-        <section className="">
-            <div className="space-y-3">
-                <h1 className="md:text-4xl font-bold text-center">Testimonials</h1>
-                <p className="text-xl pb-10 font-normal md:w-[70%] mx-auto text-center">Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium</p>
+        <section className="my-10">
+            <div className="text-center space-y-5 mb-10 max-w-xl mx-auto">
+             <h1 className="text-4xl font-bold">Testimonials</h1>
+             <p>Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium</p>
+            </div>
+            <Swiper  pagination={{
+          clickable: true,
+        }} modules={[Pagination]} className="mySwiper">
 
-                {/* reviews */}
-                <div className="text-black bg-[#F8F8F8] p-8 flex md:flex-row flex-col items-center gap-6 rounded-md md:w-[75%] w-full mx-auto">
+                <SwiperSlide> 
+                    <div className="text-black bg-[#F8F8F8] p-8 flex md:flex-row flex-col items-center gap-6 rounded-md md:w-3/4 w-full mx-auto">
                     <div>
                         <Image src="/assets/Ellipse 10.png" alt="review images" width={230} height={230}></Image>
                     </div>
-                    {/* text */}
                     <div>
-                    <p> 
-  <span className="text-[#FD6F00] text-2xl">&quot;</span> 
-  Lorem ipsum dolor sit amet consectetur. In enim cursus odio accumsan. Id leo urna velit neque mattis id tellus arcu condimentum. Augue dictum dolor elementum convallis dignissim malesuada commodo ultrices.
-  <span className="text-[#FD6F00] text-xl">&quot;</span>
-</p>
+                    <span className="text-[#FD6F00] relative top-6 -left-3 text-3xl">&quot;</span> 
+                    <p>
+                    Lorem ipsum dolor sit amet consectetur. In enim cursus odio accumsan. Id leo urna velit neque mattis id tellus arcu condimentum. Augue dictum dolor elementum convallis dignissim malesuada commodo ultrices.
+                    <span className="text-[#FD6F00] pt-5 text-3xl relative top-5">&quot;</span>
+                    </p>
 
                     <p className="font-semibold">Name</p>
                     <p>CEO</p>
                     </div>
                 </div>
-                
-                {/* slider indecadtor */}
-                <div className="flex justify-center items-center gap-2 py-8">
-                    <div className="h-[16px] w-[55px] rounded-lg bg-[#D9D9D9]"></div>
-                    <div className="h-[16px] w-[55px] rounded-lg bg-[#FD6F00]"></div>
-                    <div className="h-[16px] w-[55px] rounded-lg bg-[#D9D9D9]"></div>
-                    <div className="h-[16px] w-[55px] rounded-lg bg-[#D9D9D9]"></div>
+                </SwiperSlide>
+                <SwiperSlide> 
+                    <div className="text-black bg-[#F8F8F8] p-8 flex md:flex-row flex-col items-center gap-6 rounded-md md:w-3/4 w-full mx-auto">
+                    <div>
+                        <Image src="/assets/Ellipse 10.png" alt="review images" width={230} height={230}></Image>
+                    </div>
+                    <div>
+                    <span className="text-[#FD6F00] relative top-6 -left-3 text-3xl">&quot;</span> 
+                    <p>
+                    Lorem ipsum dolor sit amet consectetur. In enim cursus odio accumsan. Id leo urna velit neque mattis id tellus arcu condimentum. Augue dictum dolor elementum convallis dignissim malesuada commodo ultrices.
+                    <span className="text-[#FD6F00] pt-5 text-3xl relative top-5">&quot;</span>
+                    </p>
+
+                    <p className="font-semibold">Name</p>
+                    <p>CEO</p>
+                    </div>
                 </div>
-            </div>
+                </SwiperSlide>
+                <SwiperSlide> 
+                    <div className="text-black bg-[#F8F8F8] p-8 flex md:flex-row flex-col items-center gap-6 rounded-md md:w-3/4 w-full mx-auto">
+                    <div>
+                        <Image src="/assets/Ellipse 10.png" alt="review images" width={230} height={230}></Image>
+                    </div>
+                    <div>
+                    <span className="text-[#FD6F00] relative top-6 -left-3 text-3xl">&quot;</span> 
+                    <p>
+                    Lorem ipsum dolor sit amet consectetur. In enim cursus odio accumsan. Id leo urna velit neque mattis id tellus arcu condimentum. Augue dictum dolor elementum convallis dignissim malesuada commodo ultrices.
+                    <span className="text-[#FD6F00] pt-5 text-3xl relative top-5">&quot;</span>
+                    </p>
+
+                    <p className="font-semibold">Name</p>
+                    <p>CEO</p>
+                    </div>
+                </div>
+                </SwiperSlide>
+                <SwiperSlide> 
+                    <div className="text-black bg-[#F8F8F8] p-8 flex md:flex-row flex-col items-center gap-6 rounded-md md:w-3/4 w-full mx-auto">
+                    <div>
+                        <Image src="/assets/Ellipse 10.png" alt="review images" width={230} height={230}></Image>
+                    </div>
+                    <div>
+                    <span className="text-[#FD6F00] relative top-6 -left-3 text-3xl">&quot;</span> 
+                    <p>
+                    Lorem ipsum dolor sit amet consectetur. In enim cursus odio accumsan. Id leo urna velit neque mattis id tellus arcu condimentum. Augue dictum dolor elementum convallis dignissim malesuada commodo ultrices.
+                    <span className="text-[#FD6F00] pt-5 text-3xl relative top-5">&quot;</span>
+                    </p>
+
+                    <p className="font-semibold">Name</p>
+                    <p>CEO</p>
+                    </div>
+                </div>
+                </SwiperSlide>
+                
+            </Swiper>
         </section>
     );
 };

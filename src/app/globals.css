@@ -40,3 +40,17 @@
   .react-tabs__tab-panel {
     padding: 20px;
   }
+
+  .swiper-pagination{
+    position: relative !important;
+    margin-top: 25px;
+  }
+
+  .swiper-pagination-bullet{
+    background: #D9D9D9 !important;
+    padding: 5px 20px ;
+    border-radius: 5px !important;
+  }
+  .swiper-pagination-bullet-active{
+    background: #FD6F00 !important;
+  }
