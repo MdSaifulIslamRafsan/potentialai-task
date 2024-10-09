@@ -2,3 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Remove the underline */
+.react-tabs__tab-list {
+    border-bottom: none !important;
+  }
+  
+  /* Normal tab color */
+  .react-tabs__tab {
+    background-color: #F8F8F8 !important;
+    border: none !important;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: black;
+    font-weight: 600;
+    margin-right:15px;
+  }
+  
+  /* Active tab color */
+  .react-tabs__tab--selected {
+    background-color: #FD6F00 !important;
+    color: white !important;
+    border-radius: 5px !important;
+    border: none !important;
+  }
+  
+  /* Remove focus outline */
+  .react-tabs__tab:focus {
+    box-shadow: none !important;
+    outline: none !important;
+    border: none !important;
+  }
+  
+  /* Styling the content inside TabPanel */
+  .react-tabs__tab-panel {
+    padding: 20px;
+  }
