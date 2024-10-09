@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="footer footer-center text-base-content rounded p-10">
             
         <Link href="/"><Image width="140" height="40" src="/assets/logo (1).png" alt="logo" /></Link>
-        <nav className="grid grid-flow-col gap-4">
+        <nav className="flex flex-wrap gap-4">
           <Link href="/" className="link link-hover">Home</Link>
           <Link href="/about" className="link link-hover">About me</Link>
           <Link href="/services" className="link link-hover">Services</Link>
