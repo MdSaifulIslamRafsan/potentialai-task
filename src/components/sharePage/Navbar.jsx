@@ -1,10 +1,8 @@
 "use client"
 import Image from "next/image";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
 
-const Navbar = () => {
-    const activeRoute = usePathname();
+const Navbar = ({params}) => {
     const navItems = [
         {
             path: '#',
@@ -53,7 +51,7 @@ const Navbar = () => {
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
             {
-               navItems?.map((item) => <li key="title"><Link  className={item?.path === activeRoute ? "text-[#FD6F00]" : ""} href={item?.path}>{item?.title}</Link></li>)
+               navItems?.map((item) => <li key="title"><Link   href={item?.path}>{item?.title}</Link></li>)
             }
       </ul>
     </div>
@@ -62,7 +60,7 @@ const Navbar = () => {
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
             {
-               navItems?.map((item) => <li key="title"><Link  className={item?.path === activeRoute ? "text-[#FD6F00]" : ""} href={item?.path}>{item?.title}</Link></li>)
+               navItems?.map((item) => <li key="title"><Link href={item?.path}>{item?.title}</Link></li>)
             }
     </ul>
   </div>

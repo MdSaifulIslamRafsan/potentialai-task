@@ -5,6 +5,7 @@
 /* Remove the underline */
 .react-tabs__tab-list {
     border-bottom: none !important;
+    width: 100%;
   }
   
   /* Normal tab color */
@@ -16,6 +17,8 @@
     border-radius: 5px;
     color: black;
     font-weight: 600;
+    position: static !important;
+   
   }
   
   /* Active tab color */
