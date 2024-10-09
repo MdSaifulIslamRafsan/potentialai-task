@@ -18,7 +18,7 @@ const Projects = () => {
             <div className="my-10">
 
             <Tabs>
-                <TabList className="flex justify-center">
+                <TabList className="flex flex-wrap gap-5 justify-center">
                 <Tab>All</Tab>
                 <Tab>UI/UX</Tab>
                 <Tab>Web Design</Tab>

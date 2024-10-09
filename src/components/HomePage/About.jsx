@@ -4,7 +4,7 @@ const About = () => {
     return (
         <div id="about" className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
            <div className="relative">
-           <Image width="500" height="400" src="/assets/Group 7.png" alt="aboutImage" />
+           <Image width="500" height="400" src="/assets/Group 7.png" alt="aboutImage" className="mx-auto"/>
            <Image width="400" className="absolute top-[14%] h-[80px] max-w-[370px] w-full left-1/2 -translate-x-1/2" height="50" src="/assets/Rectangle 4.png" alt="logo" />
 
            </div>
